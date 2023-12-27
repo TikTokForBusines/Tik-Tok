@@ -1,0 +1,589 @@
+body {
+  font-family: "Fira Code", "Headland One", "Inter", "Lunasima", "Montserrat",
+    "Noto Sans", "Playfair Display", "PT Serif", "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 50px;
+  max-width: 100%; /* Ширина заголовка теперь будет соответствовать ширине экрана */
+  border-bottom: 2px #c8c8c8 solid;
+}
+
+.logo-head {
+  width: 130px;
+  height: auto;
+  cursor: pointer;
+}
+
+.other {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.curs {
+  cursor: pointer;
+}
+
+.tex-p {
+  color: rgba(22, 24, 35, 1);
+  font-weight: 600;
+  font-size: 22px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.forg-pas {
+  color: rgba(22, 24, 35, 0.75);
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 14px;
+  margin-left: -295px;
+  display: inlin-block;
+}
+
+.submit:hover {
+cursor: default;
+}
+
+.submit {
+  border-radius: 4px;
+  border: none;
+  color: rgba(22, 24, 35, 0.34);
+  width: 450px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Roboto, sans-serif;
+  padding: 6px 10px;
+  margin-top: 21px;
+  min-height: 46px;
+}
+
+.centre {
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2100px;
+  display: fex;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.password-toggle {
+  position: relative;
+}
+
+.toggle-btn {
+  background-color: rgba(22, 24, 35, 0.06);
+  border: none;
+  width: 100px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.form-input {
+  width: 400px;
+  border-radius: 2px;
+  background-color: rgba(22, 24, 35, 0.06);
+  border: 1px solid;
+  -webkit-padding-start: 12px;
+  padding-inline-start: 12px;
+  color: rgba(22, 24, 35, 1);
+  line-height: 100%;
+  outline: none;
+  font-size: 16px;
+  height: 44px;
+  caret-color: rgba(254, 44, 85, 1);
+  border-color: rgba(22, 24, 35, 0.12);
+  -webkit-padding-end: unset;
+  padding-inline-end: unset;
+}
+
+.input-with-button {
+  position: relative;
+  display: inline-block;
+}
+
+.input-with-button input[type="text"] {
+  padding-right: 0px; /* Для отступа справа от текстового поля */
+}
+
+.input-with-button button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.tiktok-1hvykal-DivCopyright {
+  font-family: ;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #8a8b91;
+  margin-top: -60px;
+  margin-left: 2050px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.title {
+  font-size: 42px;
+}
+
+.ul-log {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-input {
+  width: 400px;
+  height: 44px;
+}
+
+.password-toggle {
+  margin-top: 5px;
+}
+
+.submit {
+  height: 44px;
+  width: 420px;
+  margin-top: 20px;
+  min-height: 40px;
+}
+
+.reg {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.registr {
+  color: rgba(254, 44, 85, 1);
+  text-decoration: none;
+}
+
+.footer {
+  background-color: rgba(18, 18, 18, 1);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+main {
+  height: 800px;
+}
+
+.p-tex {
+  margin-left: -197px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-family: "Fira Code", "Headland One", "Inter", "Lunasima", "Montserrat",
+      "Noto Sans", "Playfair Display", "PT Serif", "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .p-tex {
+    margin-left: -197px;
+  }
+  .header {
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 50px;
+    max-width: 100%; /* Ширина заголовка теперь будет соответствовать ширине экрана */
+    border-bottom: 2px #c8c8c8 solid;
+  }
+
+  .logo-head {
+    width: 130px;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .other {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .curs {
+    cursor: pointer;
+  }
+
+  .tex-p {
+    color: rgba(22, 24, 35, 1);
+    font-weight: 600;
+    font-size: 22px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+  .forg-pas {
+    color: rgba(22, 24, 35, 0.75);
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: -295px;
+    display: inlin-block;
+  }
+
+  .submit:hover {
+    cursor: pointer;
+  }
+
+  .submit {
+    border-radius: 4px;
+    border: none;
+    color: rgba(22, 24, 35, 0.34);
+    width: 450px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    padding: 6px 10px;
+    cursor: pointer;
+    margin-top: 21px;
+    min-height: 46px;
+  }
+
+  .centre {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2100px;
+    display: fex;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .password-toggle {
+    position: relative;
+  }
+
+  .toggle-btn {
+    background-color: rgba(22, 24, 35, 0.06);
+    border: none;
+    width: 100px;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .form-input {
+    width: 400px;
+    border-radius: 2px;
+    background-color: rgba(22, 24, 35, 0.06);
+    border: 1px solid;
+    -webkit-padding-start: 12px;
+    padding-inline-start: 12px;
+    color: rgba(22, 24, 35, 1);
+    line-height: 100%;
+    outline: none;
+    font-size: 16px;
+    height: 44px;
+    caret-color: rgba(254, 44, 85, 1);
+    border-color: rgba(22, 24, 35, 0.12);
+    -webkit-padding-end: unset;
+    padding-inline-end: unset;
+  }
+
+  .input-with-button {
+    position: relative;
+    display: inline-block;
+  }
+
+  .input-with-button input[type="text"] {
+    padding-right: 0px; /* Для отступа справа от текстового поля */
+  }
+
+  .input-with-button button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
+
+  .tiktok-1hvykal-DivCopyright {
+    font-family: ;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #8a8b91;
+    margin-top: -60px;
+    margin-left: 2050px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .title {
+    font-size: 42px;
+  }
+
+  .ul-log {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .form-input {
+    width: 400px;
+    height: 44px;
+  }
+
+  .password-toggle {
+    margin-top: 5px;
+  }
+
+  .submit {
+    height: 44px;
+    width: 420px;
+    margin-top: 20px;
+    min-height: 40px;
+  }
+
+  .reg {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .registr {
+    color: rgba(254, 44, 85, 1);
+    text-decoration: none;
+  }
+
+  .footer {
+    background-color: rgba(18, 18, 18, 1);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  main {
+    height: 800px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-family: "Fira Code", "Headland One", "Inter", "Lunasima", "Montserrat",
+      "Noto Sans", "Playfair Display", "PT Serif", "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .header {
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 50px;
+    max-width: 100%; /* Ширина заголовка теперь будет соответствовать ширине экрана */
+    border-bottom: 2px #c8c8c8 solid;
+  }
+
+  .logo-head {
+    width: 130px;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .other {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .curs {
+    cursor: pointer;
+  }
+
+  .tex-p {
+    color: rgba(22, 24, 35, 1);
+    font-weight: 600;
+    font-size: 22px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  .p-tex {
+   opacity: 0;
+  }
+
+  .forg-pas {
+    color: rgba(22, 24, 35, 0.75);
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: -195px;
+    display: inlin-block;
+  }
+
+  .submit:hover {
+    cursor: pointer;
+  }
+
+  .submit {
+    border-radius: 4px;
+    border: none;
+    color: rgba(22, 24, 35, 0.34);
+    width: 300px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    padding: 6px 10px;
+    cursor: pointer;
+    margin-top: 21px;
+    min-height: 46px;
+  }
+
+  .centre {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2100px;
+    display: fex;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .password-toggle {
+    position: relative;
+  }
+
+  .toggle-btn {
+    background-color: rgba(22, 24, 35, 0.06);
+    border: none;
+    width: 100px;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .form-input {
+    width: 250px;
+    border-radius: 2px;
+    background-color: rgba(22, 24, 35, 0.06);
+    border: 1px solid;
+    -webkit-padding-start: 12px;
+    padding-inline-start: 12px;
+    color: rgba(22, 24, 35, 1);
+    line-height: 100%;
+    outline: none;
+    font-size: 16px;
+    height: 44px;
+    caret-color: rgba(254, 44, 85, 1);
+    border-color: rgba(22, 24, 35, 0.12);
+    -webkit-padding-end: unset;
+    padding-inline-end: unset;
+  }
+
+  .input-with-button {
+    position: relative;
+    display: inline-block;
+  }
+
+  .input-with-button input[type="text"] {
+    padding-right: 0px; /* Для отступа справа от текстового поля */
+  }
+
+  .input-with-button button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
+
+  .tiktok-1hvykal-DivCopyright {
+    font-family: ;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #8a8b91;
+    margin-top: -60px;
+    margin-left: 2050px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .title {
+    font-size: 42px;
+  }
+
+  .ul-log {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .form-input {
+    width: 300px;
+    height: 44px;
+  }
+
+  .password-toggle {
+    margin-top: 5px;
+  }
+
+  .submit {
+    height: 44px;
+    width: 320px;
+    margin-top: 20px;
+    min-height: 40px;
+  }
+
+  .reg {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .registr {
+    color: rgba(254, 44, 85, 1);
+    text-decoration: none;
+  }
+
+  .footer {
+    background-color: rgba(18, 18, 18, 1);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  main {
+    height: 670px;
+  }
+}
